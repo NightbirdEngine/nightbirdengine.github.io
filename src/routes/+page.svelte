@@ -6,7 +6,7 @@
 	</header>
 
 	<main class="h-[260rem] bg-slate-800">
-		<div class="flex items-center px-20 h-[46rem] bg-gradient-to-b from-gray-950 to-slate-800">
+		<div class="flex items-center justify-center md:justify-normal md:px-20 h-[46rem] bg-gradient-to-b from-gray-950 to-slate-800">
 			<div class="space-y-5">
 				<h1 class="text-5xl font-bold text-white">
 					Nightbird Engine
