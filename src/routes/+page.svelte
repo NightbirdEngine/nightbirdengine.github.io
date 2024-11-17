@@ -16,7 +16,7 @@
 				</p>
 				<div class="flex space-x-3">
 					<div>
-						<a href="https://github.com/NightbirdEngine/Nightbird">
+						<a href="https://github.com/NightbirdEngine/Nightbird/releases">
 							<button class="border-2 bg-blue-400 border-blue-400 rounded-xl p-2 text-white hover:bg-gray-700">
 								Download Now
 							</button>
