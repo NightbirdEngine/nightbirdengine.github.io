@@ -17,13 +17,6 @@
 					</p>
 					<div class="flex space-x-3">
 						<div>
-							<a href="https://github.com/NightbirdEngine/NightbirdLauncher/releases">
-								<button class="border-2 bg-blue-400 border-blue-400 rounded-lg px-3 py-2 text-white hover:bg-gray-700">
-									Download Now
-								</button>
-							</a>
-						</div>
-						<div>
 							<a href="https://github.com/NightbirdEngine/Nightbird">
 								<button class="border-2 rounded-lg px-3 py-2 text-white border-white hover:bg-gray-700">
 									Check it out on GitHub
