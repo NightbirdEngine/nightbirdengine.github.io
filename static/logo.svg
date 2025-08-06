@@ -23,10 +23,10 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="1"
-     inkscape:cx="224"
-     inkscape:cy="288"
-     inkscape:window-width="1450"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="238.64854"
+     inkscape:cy="321.02648"
+     inkscape:window-width="1556"
      inkscape:window-height="1360"
      inkscape:window-x="-7"
      inkscape:window-y="0"
@@ -34,6 +34,70 @@
      inkscape:current-layer="layer1" />
   <defs
      id="defs1">
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="261.01079,354.52564"
+       end_point="261.01079,403.31602"
+       center_point="261.01079,378.92083"
+       id="path-effect6"
+       is_visible="false"
+       lpeversion="1.2"
+       lpesatellites=""
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="false"
+       split_open="false"
+       link_styles="false" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="271.5,361.5"
+       end_point="271.5,399"
+       center_point="271.5,380.25"
+       id="path-effect5"
+       is_visible="true"
+       lpeversion="1.2"
+       lpesatellites=""
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="false"
+       split_open="false"
+       link_styles="false" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="267.5,369.5"
+       end_point="267.75,414.75"
+       center_point="267.625,392.125"
+       id="path-effect4"
+       is_visible="true"
+       lpeversion="1.2"
+       lpesatellites=""
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="false"
+       split_open="false"
+       link_styles="false" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="289.875,388.75"
+       end_point="289.875,353"
+       center_point="289.875,370.875"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1.2"
+       lpesatellites=""
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="false"
+       split_open="false"
+       link_styles="false" />
     <inkscape:path-effect
        effect="bspline"
        id="path-effect3"
@@ -78,5 +142,13 @@
        cy="256"
        rx="60"
        ry="50" />
+    <path
+       style="fill:#800000;stroke-width:5.66929"
+       d="m 261.01078,354.9676 c 17.00143,9.22136 49.86162,30.64881 48.95015,32.66386 -0.34133,0.55717 -1.66173,1.42752 -4.9718,1.42372 1.22758,1.8955 1.2811,3.16739 0.58602,4.01982 -0.99076,1.11091 -4.49773,0.68955 -5.51838,0.0195 0.96372,1.20435 0.81824,3.19603 -0.33188,4.07854 -1.48514,0.90687 -3.23008,0.24607 -6.51864,-0.92807 -1.27993,2.20028 -2.088,4.07058 -3.64928,4.42881 -1.83429,0.29795 -4.05604,-1.25693 -6.09722,-2.80918 -0.4925,2.35684 -2.64968,4.16441 -4.15257,4.83271 -0.98597,0.28912 -6.09255,0.52329 -8.09937,-2.85327 -1.27459,2.14566 -3.43224,3.47376 -4.62855,3.91393 -2.33424,0.79037 -4.20374,-1.70635 -5.56848,-4.18719 z"
+       id="path5"
+       inkscape:path-effect="#path-effect6"
+       inkscape:original-d="m 261.01078,354.9676 c 17.00143,9.22136 49.86162,30.64881 48.95015,32.66386 -0.34133,0.55717 -1.66173,1.42752 -4.9718,1.42372 1.22758,1.8955 1.2811,3.16739 0.58602,4.01982 -0.99076,1.11091 -4.49773,0.68955 -5.51838,0.0195 0.96372,1.20435 0.81824,3.19603 -0.33188,4.07854 -1.48514,0.90687 -3.23008,0.24607 -6.51864,-0.92807 -1.27993,2.20028 -2.088,4.07058 -3.64928,4.42881 -1.83429,0.29795 -4.05604,-1.25693 -6.09722,-2.80918 -0.4925,2.35684 -2.64968,4.16441 -4.15257,4.83271 -0.98597,0.28912 -6.09255,0.52329 -8.09937,-2.85327 -1.27459,2.14566 -3.43224,3.47376 -4.62855,3.91393 -2.33424,0.79037 -4.20374,-1.70635 -5.56848,-4.18719 z"
+       sodipodi:nodetypes="cccccccccccccc"
+       transform="matrix(1.9313779,0,0,1.8185256,-243.80678,-320.60212)" />
   </g>
 </svg>
