@@ -32,8 +32,9 @@
 </div>
 
 <header class="flex items-center sticky top-0 px-5 py-7 space-x-5 backdrop-blur-md bg-slate-950/70">
-	<a href="/" class="text-3xl font-semibold text-white">
-		Nightbird
+	<a href="/" class="flex items-center space-x-1 text-3xl font-semibold text-white">
+		<img src="/logo-white.svg" alt="Nightbird Logo" class="w-16 h-16" />
+		<span>Nightbird</span>
 	</a>
 	<nav>
 		<a href="/news" class="text-xl text-white">News</a>
