@@ -24,20 +24,21 @@
   }
 </style>
 
-<div class="fixed inset-0 -z-10 overflow-hidden bg-slate-900">
+<div class="fixed inset-0 -z-10 overflow-hidden bg-slate-300 dark:bg-slate-900">
 	<div
 		class="absolute w-[60vw] h-[60vw] bg-gradient-to-r from-purple-600 via-pink-500 to-purple-500 rounded-full blur-3xl animate-pulse-strong"
 		style="top: 10%; left: 20%;">
 	</div>
 </div>
 
-<header class="flex items-center sticky top-0 px-5 py-7 space-x-5 backdrop-blur-md bg-slate-950/70">
-	<a href="/" class="flex items-center space-x-1 text-3xl font-semibold text-white">
-		<img src="/logo-white.svg" alt="Nightbird Logo" class="w-16 h-16" />
+<header class="flex items-center sticky top-0 px-5 py-7 space-x-5 backdrop-blur-md bg-slate-50/70 dark:bg-slate-950/70">
+	<a href="/" class="flex items-center space-x-1 text-3xl font-semibold text-black dark:text-white">
+		<img src="/logo-white.svg" alt="Nightbird Logo" class="w-16 h-16 hidden dark:block" />
+		<img src="/logo-black.svg" alt="Nightbird Logo" class="w-16 h-16 dark:hidden" />
 		<span>Nightbird</span>
 	</a>
 	<nav>
-		<a href="/news" class="text-xl text-white">News</a>
+		<a href="/news" class="text-xl text-black dark:text-white">News</a>
 	</nav>
 </header>
 
@@ -45,6 +46,6 @@
 	{@render children?.()}
 </main>
 
-<footer class="flex justify-center py-5 bg-gray-950">
-	<h1 class="text-white">&copy; 2025 Nightbird Engine</h1>
+<footer class="flex justify-center py-5 bg-slate-50/70 dark:bg-gray-900/70">
+	<h1 class="text-black dark:text-white">&copy; 2025 Nightbird Engine</h1>
 </footer>
