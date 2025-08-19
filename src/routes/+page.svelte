@@ -10,7 +10,7 @@
 			<div class="flex space-x-3">
 				<div>
 					<a href="https://github.com/NightbirdEngine/Nightbird">
-						<button class="cursor-pointer bg-blue-400 rounded-lg px-4 py-2 text-lg text-slate-900 hover:bg-blue-500">
+						<button class="cursor-pointer bg-pink-700 rounded-lg px-4 py-2 text-lg text-white hover:bg-blue-500">
 							Check it out on GitHub
 						</button>
 					</a>
