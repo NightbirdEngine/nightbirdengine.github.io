@@ -31,7 +31,7 @@
 	</div>
 </div>
 
-<header class="flex items-center sticky top-0 px-5 py-7 space-x-5 backdrop-blur-md bg-slate-50/70 dark:bg-slate-950/70">
+<header class="flex items-center sticky top-0 px-5 py-6 space-x-5 backdrop-blur-lg bg-slate-50/70 dark:bg-slate-950/70">
 	<a href="/" class="flex items-center space-x-1 text-3xl font-semibold text-black dark:text-white">
 		<img src="/logo-white.svg" alt="Nightbird Logo" class="w-16 h-16 hidden dark:block" />
 		<img src="/logo-black.svg" alt="Nightbird Logo" class="w-16 h-16 dark:hidden" />
@@ -42,10 +42,10 @@
 	</nav>
 </header>
 
-<main class="h-screen">
+<main class="min-h-screen">
 	{@render children?.()}
 </main>
 
-<footer class="flex justify-center py-5 bg-slate-50/70 dark:bg-gray-900/70">
+<footer class="flex justify-center py-5 bg-slate-50/70 dark:bg-slate-950/70">
 	<h1 class="text-black dark:text-white">&copy; 2025 Nightbird Engine</h1>
 </footer>
