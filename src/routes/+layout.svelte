@@ -31,7 +31,7 @@
 	</div>
 </div>
 
-<div class="flex flex-col min-h-screen">
+<div class="flex flex-col min-h-[100dvh]">
 	<header class="flex items-center sticky top-0 px-5 py-6 space-x-5 backdrop-blur-lg bg-slate-50/70 dark:bg-slate-950/70">
 		<a href="/" class="flex items-center space-x-1 text-3xl font-semibold text-black dark:text-white">
 			<img src="/logo-white.svg" alt="Nightbird Logo" class="w-16 h-16 hidden dark:block" />
