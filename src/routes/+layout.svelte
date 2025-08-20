@@ -24,7 +24,7 @@
   }
 </style>
 
-<div class="fixed inset-0 -z-10 overflow-hidden bg-slate-300 dark:bg-slate-900">
+<div class="fixed inset-0 -z-20 bg-slate-300 dark:bg-slate-900">
 	<div
 		class="absolute w-[60vw] h-[60vw] bg-gradient-to-r from-purple-600 via-pink-500 to-purple-500 rounded-full blur-3xl animate-pulse-strong"
 		style="top: 10%; left: 20%;">
