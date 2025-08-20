@@ -1,5 +1,5 @@
 <div class="flex justify-center 2xl:px-14">
-	<div class="flex flex-col flex-grow max-w-[90rem] pl-6 sm:pl-8 md:pl-12 lg:pl-14 xl:pl-14 2xl:pl-0">
+	<div class="flex flex-col flex-grow max-w-[90rem] px-3 sm:pl-8 md:pl-12 lg:pl-14 xl:pl-14 2xl:pl-0">
 		<div class="flex flex-col flex-grow space-y-6 pt-32">
 			<h1 class="text-4xl md:text-5xl xl:text-6xl font-bold text-black dark:text-white">
 				Nightbird Engine
@@ -21,22 +21,22 @@
 			<h1 class="pb-8 text-4xl md:text-5xl xl:text-6xl font-bold text-black dark:text-white">
 				Features
 			</h1>
-			<section class="min-h-40 space-y-3">
+			<div class="min-h-40 space-y-3">
 				<h2 class="text-3xl md:text-4xl text-black dark:text-white">
 					Vulkan Renderer
 				</h2>
 				<p class="text-xl md:text-2xl text-black dark:text-white">
 					Nightbird uses the Vulkan API for rendering.
 				</p>
-			</section>
-			<section class="min-h-40 space-y-3">
+			</div>
+			<div class="min-h-40 space-y-3">
 				<h2 class="text-3xl md:text-4xl text-black dark:text-white">
 					Editor
 				</h2>
 				<p class="text-xl md:text-2xl text-black dark:text-white">
 					The editor gives users the ability to traverse and edit a scene.
 				</p>
-			</section>
+			</div>
 		</div>
 	</div>
 </div>
