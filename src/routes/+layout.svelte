@@ -25,7 +25,7 @@
 
 <div class="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
 	<div
-		class="absolute w-[60vw] h-[60vw] bg-gradient-to-r from-purple-600 via-pink-500 to-purple-500 rounded-full blur-3xl animate-pulse-strong"
+		class="absolute w-[60vw] h-[60vw] bg-linear-to-r from-purple-600 via-pink-500 to-purple-500 rounded-full blur-3xl animate-pulse-strong"
 		style="top: 10%; left: 20%;">
 	</div>
 </div>
@@ -42,11 +42,11 @@
 		</nav>
 	</header>
 	
-	<main class="flex-1">
+	<main class="flex-1 mx-auto max-w-7xl space-y-5 pt-5">
 		{@render children?.()}
 	</main>
-	
+
 	<footer class="flex justify-center py-5 bg-slate-50/70 dark:bg-slate-950/70">
-		<h1 class="text-black dark:text-white">&copy; 2025 Nightbird Engine</h1>
+		<h1 class="text-black dark:text-white">&copy; 2026 Nightbird Engine</h1>
 	</footer>
 </div>
