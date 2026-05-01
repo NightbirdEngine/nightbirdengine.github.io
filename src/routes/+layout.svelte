@@ -42,7 +42,7 @@
 		</nav>
 	</header>
 
-	<main class="flex-1 mx-auto max-w-7xl space-y-5 py-15 lg:py-25 xl:py-35 px-4 sm:px-6 md:px-10">
+	<main class="flex-1 mx-auto max-w-7xl space-y-15 py-15 lg:py-25 xl:py-35 px-4 sm:px-6 md:px-10">
 		{@render children?.()}
 	</main>
 
