@@ -1,4 +1,4 @@
-<div class="space-y-5">
+<div class="space-y-5 py-15 lg:py-25 xl:py-35">
 	<h1 class="text-4xl md:text-5xl xl:text-6xl font-bold text-black dark:text-white">
 		Nightbird engine
 	</h1>
