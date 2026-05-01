@@ -41,12 +41,13 @@
 			<a href="/news" class="text-xl text-black dark:text-white">News</a>
 		</nav>
 	</header>
-	
-	<main class="flex-1 mx-auto max-w-7xl space-y-5 py-5">
+
+	<main class="flex-1 mx-auto max-w-7xl space-y-5 py-15 lg:py-25 xl:py-35 px-4 sm:px-6 md:px-10">
 		{@render children?.()}
 	</main>
 
-	<footer class="flex justify-center py-5 bg-slate-50/70 dark:bg-slate-950/70">
-		<h1 class="text-black dark:text-white">&copy; 2026 Nightbird Engine</h1>
+	<footer class="flex flex-col text-center justify-center py-5 bg-slate-50/70 dark:bg-slate-950/70 text-gray-700 dark:text-gray-400">
+			<h1>&copy; 2026 Nightbird Engine. All rights reserved.</h1>
+			<h1>Not affiliated with, endorsed by, or associated with Nintendo. Wii U and Nintendo 3DS are trademarks of Nintendo Co., Ltd.</h1>
 	</footer>
 </div>
