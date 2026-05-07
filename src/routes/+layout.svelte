@@ -38,7 +38,7 @@
 			<span>Nightbird</span>
 		</a>
 		<nav>
-			<a href="/news" class="text-xl text-black dark:text-white">News</a>
+			<a href="/blog" class="text-xl text-black dark:text-white">Blog</a>
 		</nav>
 	</header>
 
