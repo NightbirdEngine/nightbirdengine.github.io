@@ -30,7 +30,7 @@
 	</div>
 </div>
 
-<header class="flex items-center sticky top-0 px-5 py-6 space-x-5 backdrop-blur-lg bg-slate-50/70 dark:bg-slate-950/70">
+<header class="flex items-center sticky top-0 px-5 py-6 space-x-5 backdrop-blur-lg bg-slate-50/50 dark:bg-slate-950/50">
 	<a href="/" class="flex items-center space-x-1 text-3xl font-semibold text-black dark:text-white">
 		<img src="/logo-white.svg" alt="Nightbird Logo" class="w-16 h-16 hidden dark:block" />
 		<img src="/logo-black.svg" alt="Nightbird Logo" class="w-16 h-16 dark:hidden" />
@@ -40,14 +40,14 @@
 		<a href="/blog" class="text-xl text-black dark:text-white">Blog</a>
 	</nav>
 </header>
-	
+
 <div class="flex justify-center min-h-screen">
-	<main class="flex-1 max-w-7xl space-y-15 py-15 lg:py-25 xl:py-35 px-4 sm:px-6 md:px-10">
+	<main class="flex-1 max-w-7xl space-y-15 py-15 lg:py-25 xl:py-35 px-4 sm:px-6 md:px-10 font-sans text-black dark:text-white">
 		{@render children?.()}
 	</main>
 </div>
-	
-<footer class="flex flex-col text-center justify-center py-5 bg-slate-50/70 dark:bg-slate-950/70 text-gray-700 dark:text-gray-400">
-	<h1>&copy; 2026 Nightbird Engine. All rights reserved.</h1>
-	<h1>Not affiliated with, endorsed by, or associated with Nintendo. Wii U and Nintendo 3DS are trademarks of Nintendo Co., Ltd.</h1>
+
+<footer class="flex flex-col text-center justify-center py-5 bg-slate-50/50 dark:bg-slate-950/50 text-gray-700 dark:text-gray-400">
+	<p>&copy; 2026 Nightbird Engine. All rights reserved.</p>
+	<p>Not affiliated with, endorsed by, or associated with Nintendo. Wii U and Nintendo 3DS are trademarks of Nintendo Co., Ltd.</p>
 </footer>
