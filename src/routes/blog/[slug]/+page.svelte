@@ -17,16 +17,16 @@
 
 	<meta property="og:url" content={url} />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="{meta.title} | Nightbird" />
+	<meta property="og:title" content={`${meta.title} | Nightbird`} />
 
 	{#if meta.description}
 		<meta property="og:description" content={meta.description} />
 	{/if}
 	{#if meta.image}
-		<meta property="og:image" content={siteUrl}{meta.image} />
+		<meta property="og:image" content={`${siteUrl}${meta.image}`} />
 		<meta property="og:image:width" content="1200" />
 		<meta property="og:image:height" content="630" />
-		<meta property="og:image:secure_url" content={`${siteUrl}${meta.image}`}>
+		<meta property="og:image:secure_url" content={`${siteUrl}${meta.image}`} />
 	{/if}
 </svelte:head>
 
