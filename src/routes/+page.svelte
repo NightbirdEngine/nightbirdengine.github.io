@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Nightbird</title>
+</svelte:head>
+
 <div class="space-y-5 py-15 lg:py-25 xl:py-35">
 	<h1 class="text-4xl md:text-5xl xl:text-6xl font-bold">
 		Nightbird engine

@@ -4,20 +4,22 @@
 	export let date: string;
 </script>
 
-<article class="space-y-15">
-	<header class="space-y-2">
-		<h1 class="text-4xl md:text-5xl xl:text-6xl font-bold">
-			{title}
-		</h1>
-		<p class="text-md text-gray-700 dark:text-gray-300">
-			By {author} &bull;
-			<time datetime={date}>
-				{new Date(date).toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' })}
-			</time>
-		</p>
-	</header>
-	
-	<div class="prose dark:prose-invert text-xl prose-headings:text-4xl prose-headings:md:text-5xl prose-headings:xl:text-6xl prose-p:text-black dark:prose-p:text-white">
-		<slot />
-	</div>
-</article>
+<div class="flex justify-center">
+	<article class="space-y-15 max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl">
+		<header class="space-y-2">
+			<h1 class="text-4xl md:text-5xl xl:text-6xl font-bold">
+				{title}
+			</h1>
+			<p class="text-md text-gray-700 dark:text-gray-300">
+				By {author} &bull;
+				<time datetime={date}>
+					{new Date(date).toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' })}
+				</time>
+			</p>
+		</header>
+
+		<div class="prose max-w-none dark:prose-invert prose-headings:pt-5 prose-headings:pb-0 prose-headings:m-0 text-xl prose-headings:text-4xl prose-headings:md:text-5xl prose-headings:xl:text-6xl prose-p:text-black dark:prose-p:text-white">
+			<slot />
+		</div>
+	</article>
+</div>
