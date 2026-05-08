@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { posts } from '$lib/posts';
+	import BlogCard from '$lib/components/BlogCard.svelte';
 </script>
 
 <svelte:head>
@@ -13,30 +14,7 @@
 <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-6">
 	{#each posts as post}
 		<li>
-			<a href="/blog/{post.slug}" class="group block h-100 p-4 border-2 rounded-lg bg-slate-50/30 dark:bg-slate-950/30">
-				<picture>
-					{#if post.imageSvg}
-						<source srcset={post.imageSvg} type="image/svg+xml" />
-					{/if}
-					{#if post.image}
-						<img src={post.image} alt={post.title} class="w-full rounded-lg mb-5 bg-gray-50" />
-					{/if}
-			</picture>
-				<p class="text-md text-gray-700 dark:text-gray-300 mb-1">
-					By {post.author} &bull;
-					<time datetime={post.date}>
-						{new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
-					</time>
-				</p>
-				<h2 class="text-lg font-semibold">
-					{post.title}
-				</h2>
-				{#if post.description}
-					<p>
-						{post.description}
-					</p>
-				{/if}
-			</a>
+			<BlogCard {...post} />
 		</li>
 	{/each}
 </ul>
