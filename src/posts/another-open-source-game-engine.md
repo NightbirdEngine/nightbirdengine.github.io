@@ -3,6 +3,7 @@ title: Another Open-Source Game Engine?
 author: Lycia Stenson
 date: 2026-05-08
 description: What's one more game engine in 2026? Cross-platform support across Windows, Linux, Wii U, and 3DS.
+image: /posts/another-open-source-game-engine/image.svg
 ---
 
 What's one more game engine in 2026? Nightbird offers something others don't, cross-platform support across Windows, Linux, Wii U, and 3DS. Is this niche? Absolutely. Should you just use Godot if you want a reliable engine that supports modern platforms? Certainly. But I wanted to challenge myself to build an engine that supports my childhood game consoles and modern PC hardware from a single codebase. If you grew up with the Wii U and 3DS like me, or just like the consoles, I hope you'll find this project interesting and maybe even build something with it.

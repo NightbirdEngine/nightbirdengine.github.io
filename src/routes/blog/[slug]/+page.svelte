@@ -3,15 +3,23 @@
 
 	export let data: PageData;
 	const { content: PostContent, meta } = data;
+
+	const siteUrl = 'https://nightbirdengine.github.io';
 </script>
 
 <svelte:head>
 	<title>{meta.title} | Nightbird</title>
 	{#if meta.description}
 		<meta name="description" content={meta.description} />
-		<meta name="og:title" content="{meta.title} | Nightbird" />
+	{/if}
+	
+	<meta name="og:title" content="{meta.title} | Nightbird" />
+	<meta name="og:type" content="article" />
+	{#if meta.description}
 		<meta name="og:description" content={meta.description} />
-		<meta name="og:type" content="article" />
+	{/if}
+	{#if meta.image}
+		<meta name="og:image" content={siteUrl}{meta.image} />
 	{/if}
 </svelte:head>
 
