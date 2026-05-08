@@ -15,22 +15,18 @@
 		<meta name="description" content={meta.description} />
 	{/if}
 
-	<meta name="og:url" content={url} />
-	<meta name="og:type" content="article" />
-	<meta name="og:title" content="{meta.title} | Nightbird" />
-
-	<meta name="twitter:card" content="summary_large_image">
-	<meta property="twitter:domain" content={siteUrl}>
-	<meta property="twitter:url" content={url}>
-	<meta name="twitter:title" content="{meta.title} | Nightbird">
+	<meta property="og:url" content={url} />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="{meta.title} | Nightbird" />
 
 	{#if meta.description}
-		<meta name="og:description" content={meta.description} />
-		<meta name="twitter:description" content={meta.description}>
+		<meta property="og:description" content={meta.description} />
 	{/if}
 	{#if meta.image}
-		<meta name="og:image" content={siteUrl}{meta.image} />
-		<meta name="twitter:image" content={siteUrl}{meta.image} />
+		<meta property="og:image" content={siteUrl}{meta.image} />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta property="og:image:secure_url" content={`${siteUrl}${meta.image}`}>
 	{/if}
 </svelte:head>
 
