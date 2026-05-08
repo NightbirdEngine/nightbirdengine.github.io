@@ -20,6 +20,7 @@
 	{/if}
 	{#if meta.image}
 		<meta name="og:image" content={siteUrl}{meta.image} />
+		<meta name="twitter:card" content="summary_large_image" />
 	{/if}
 </svelte:head>
 
