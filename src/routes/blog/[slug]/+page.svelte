@@ -9,7 +9,7 @@
 	<title>{meta.title} | Nightbird</title>
 	{#if meta.description}
 		<meta name="description" content={meta.description} />
-		<meta name="og:title" content={meta.title} />
+		<meta name="og:title" content="{meta.title} | Nightbird" />
 		<meta name="og:description" content={meta.description} />
 		<meta name="og:type" content="article" />
 	{/if}
