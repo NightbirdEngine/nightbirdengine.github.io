@@ -3,14 +3,20 @@
 	export let author: string;
 	export let date: string;
 	export let image: string;
+	export let imageSvg: string;
 </script>
 
 <div class="flex justify-center">
 	<article class="space-y-15 max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl">
 		<header class="space-y-2">
-			{#if image}
-				<img src={image} alt={title} class="w-full rounded-lg mb-5 bg-gray-50" />
-			{/if}
+			<picture>
+				{#if imageSvg}
+					<source srcset={imageSvg} type="image/svg+xml" />
+				{/if}
+				{#if image}
+					<img src={image} alt={title} class="w-full rounded-lg mb-5 bg-gray-50" />
+				{/if}
+			</picture>
 			<h1 class="text-4xl md:text-5xl xl:text-6xl font-bold">
 				{title}
 			</h1>

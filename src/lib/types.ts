@@ -5,4 +5,5 @@ export type Post = {
 	date: string;
 	description?: string;
 	image?: string;
+	imageSvg?: string;
 }
