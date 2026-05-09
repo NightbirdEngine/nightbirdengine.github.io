@@ -16,7 +16,7 @@
 	</p>
 	<div class="py-5">
 		<a href="https://github.com/NightbirdEngine/Nightbird" class="cursor-pointer rounded-lg px-4 py-3 text-lg text-white bg-pink-700 hover:bg-pink-600 transition-colors">
-			Check it out on github
+			Check it out on GitHub
 		</a>
 	</div>
 </div>
