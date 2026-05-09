@@ -9,7 +9,7 @@
 
 <div class="space-y-5 py-15 lg:py-25 xl:py-35">
 	<h1 class="text-4xl md:text-5xl xl:text-6xl font-bold">
-		Nightbird engine
+		Nightbird Engine
 	</h1>
 	<p class="text-xl md:text-2xl">
 		Nightbird is a new cross-platform free and open-source game engine for Windows, Linux, Wii U, and 3DS.
