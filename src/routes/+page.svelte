@@ -44,7 +44,7 @@
 		Why use Nightbird?
 	</h1>
 	<p class="text-xl md:text-2xl">
-		Frankly, we do not recommend it. However, the engine is constantly improving with the aim of providing reliable cross-platform development for Windows, Linux, Wii U, and 3DS platforms.
+		Frankly, we do not currently recommend it. Nightbird is still in pre-alpha, with many more features and refinements planned before a proper release. The engine is constantly improving with the aim of providing reliable cross-platform development for Windows, Linux, Wii U, and 3DS.
 	</p>
 </div>
 
